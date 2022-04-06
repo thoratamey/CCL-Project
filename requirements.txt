@@ -26,8 +26,7 @@ iniconfig
 itsdangerous==1.1.0
 jdcal==1.4.1
 jedi 
-soft_unicode
-markupsafe
+MarkupSafe==0.23
 Jinja2==2.11.2
 joblib==0.15.1
 json5==0.9.5
