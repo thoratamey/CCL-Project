@@ -28,6 +28,6 @@ def index():
     return app.send_static_file('login.html')
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True,host=config['host'],port=config['port'])
 def getApp():
     return app
